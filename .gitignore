@@ -1,0 +1,38 @@
+# Evita di caricare la cartella target (build di Maven)
+target/
+
+# Evita di caricare le dipendenze di Maven
+.mvn/
+!mvn/wrapper/maven-wrapper.jar
+
+# Evita di caricare file di configurazione dell'IDE
+*.iml
+.idea/
+*.classpath
+*.project
+*.settings/
+
+# Evita di caricare i log e file temporanei
+logs/
+*.log
+*.tmp
+
+# Evita di caricare file di sistema
+.DS_Store
+Thumbs.db
+
+# Evita di caricare file di configurazione di runtime
+.env
+*.properties
+application-*.yml
+application-*.yaml
+
+# Evita di caricare file generati automaticamente
+bin/
+out/
+
+# Evita di caricare build tool specifici
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+build/
+
